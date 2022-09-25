@@ -25,19 +25,12 @@ JFrame jf=new JFrame();															//frame
 		jp1.setSize(400,500);
 		jp1.setLayout(null);
 		
-		
 		jf.add(jp1);
 		jp1.add(jl1);
-		
-		
-		
 		
 		JTabbedPane tp=new JTabbedPane(); 
 		
 		tp.setBounds(10,100,300,300);  
-		
-		
-        
 		
 		JPanel jp2=new JPanel();
 		JPanel jp3=new JPanel();
@@ -47,13 +40,9 @@ JFrame jf=new JFrame();															//frame
 		tp.add(jp3,"Car");
 		tp.add(jp4,"Donation");
 		
-		
 		JTextField jt1=new JTextField(7);				
 		JLabel jl2=new JLabel("distance travelled in km :");
-		
-		
-		 
-		
+	
 		JLabel jl4=new JLabel("type of fuel consumed by vehicle :");
 		DefaultListModel<String> l1 = new DefaultListModel<>(); 
 		 l1.addElement("petrol");  
