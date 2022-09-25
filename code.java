@@ -10,16 +10,11 @@ public abstract class second implements ActionListener{
 	
 JFrame jf=new JFrame();															//frame
 		
-
-		
 		JPanel jp1=new JPanel();														//first panel
 		JLabel jl1=new JLabel("carbon footprint calculator");
 	
-
 		jl1.setFont(new Font("Serif", Font. BOLD, 20));
 		jl1.setBounds(20,-150,300,400);
-		
-		
 		
 		jp1.setVisible(true);
 		jp1.setSize(400,500);
@@ -49,7 +44,6 @@ JFrame jf=new JFrame();															//frame
          l1.addElement("diesel");  
          JList<String> list = new JList<>(l1); 
 		
-		
 		JTextField jt2=new JTextField(7);	
 		JLabel jl3=new JLabel("fuel consumed in liters/100kg :");
 		
@@ -62,11 +56,9 @@ JFrame jf=new JFrame();															//frame
 		JTextField jt5=new JTextField(7);	
 		JLabel jl7=new JLabel("fuel consumed in liters/100kg :");
 		
-		
 		JButton jb1=new JButton("Calculate");
 		
 		JButton jb2=new JButton("Calculate");
-		
 		
 		JTextField jt6=new JTextField(7);	
 		JLabel jl8=new JLabel(" your carbon consumption for household:");
@@ -89,7 +81,6 @@ JFrame jf=new JFrame();															//frame
 				jt7.setText(y);
 			}
 		});
-		
 		
 		jp3.add(jt7);
 		jp3.add(jl9);
@@ -122,10 +113,7 @@ JFrame jf=new JFrame();															//frame
 		
 		jp3.add(jl9);
 		jp3.add(jt7);
-		
-		
-		
-		
+	
 		jp1.add(tp);
 		
 		tp.add(jp2,"Household");
